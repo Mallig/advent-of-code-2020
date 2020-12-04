@@ -1,14 +1,9 @@
-
-
 // Future optimisations:
 //  - on third loop skip odd numbers if current total is even and vice versa
 //  - remove max numbers where adding min number would equal or exceed 2020
 
-mod inputs;
+pub fn solve(numbers: Vec<i32>) {
 
-pub fn solve() {
-  let numbers = inputs.day_1();
-  
   let mut minnum = 2020;
   let mut maxnum = 0;
 
