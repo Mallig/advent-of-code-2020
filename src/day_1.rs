@@ -18,7 +18,7 @@ pub fn solve(numbers: Vec<i32>) {
   let mut count1 = 1;
   let mut count2 = 2;
 
-  let mut itercount = 0;
+  // let mut itercount = 0;
 
   'outer: for number1 in numbers.iter() {
     if number1 + minnum > 2020 { continue }
@@ -33,11 +33,10 @@ pub fn solve(numbers: Vec<i32>) {
           break 'outer;
         }
         count2 += 1;
-        itercount += 1;
+        // itercount += 1;
       }
       count2 = count1 + 1;
     }
     count1 += 1;
   }
-  println!("iteration count: {}", itercount);
 }
