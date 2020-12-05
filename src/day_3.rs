@@ -1,8 +1,5 @@
-mod input_formatter;
 
-pub  fn day_3() {
-
-  let trees = input_formatter::day_3();
+pub  fn solve(trees: Vec<String>) {
   
   let repeat = trees[0].len() -1;
 

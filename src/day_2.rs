@@ -1,7 +1,5 @@
-mod input_formatter;
 
-pub fn solve() {
-  let passwords = input_formatter::day_2();
+pub fn solve(passwords: Vec<Vec<String>>) {
   let mut valid_count = 0;
 
   for password in passwords.iter() {
