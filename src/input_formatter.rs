@@ -42,3 +42,16 @@ pub fn day_3() -> Vec<String> {
 
   return output;
 }
+
+
+pub fn day_4() -> Vec<String> {
+  let contents = fs::read_to_string("/Users/malachygilchrist/Coding/Projects/Advent-Of-Code/advent_of_code_2020/src/inputs/day_4.txt").unwrap();
+
+  let mut output: Vec<String> = Vec::new();
+
+  for i in  contents.split("\n\n") {
+    output.push(String::from(i));
+  };
+
+  return output;
+}
