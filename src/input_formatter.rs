@@ -56,6 +56,7 @@ pub fn day_5() -> Vec<String> {
   return read_lines_to_vector(contents);
 }
 
+
 fn read_lines_to_vector(input: String) -> Vec<String> {
   let mut output : Vec<String> = Vec::new();
 
